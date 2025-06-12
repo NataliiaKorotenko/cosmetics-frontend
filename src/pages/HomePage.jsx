@@ -19,8 +19,7 @@ const HomePage = () => {
 
   return (
     
-    <section className="relative w-full h-screen overflow-hidden">
-      <div className="bg-green-500 text-white p-4 text-xl">Test block</div>
+<section className="relative w-full h-screen overflow-hidden pt-16">
 
       <Header />
       {/* Видео */}
