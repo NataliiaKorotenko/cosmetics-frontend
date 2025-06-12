@@ -70,7 +70,7 @@ export default function FeaturedProducts() {
 
   return (
     <section className="py-12 px-4 max-w-7xl mx-auto relative">
-      <h2 className="text-3xl font-bold mb-6 text-center">Produits en vedette</h2>
+
 
       {/* Кнопка влево */}
       <button
