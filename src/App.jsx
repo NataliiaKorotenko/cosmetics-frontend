@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import PrivateRoute from './components/PrivateRoute';
 import Catalog from './pages/Catalog'; 
 import '../src/App.css';
+import './index.css';
+
 
 function App() {
   return (

@@ -18,7 +18,10 @@ const HomePage = () => {
   };
 
   return (
+    
     <section className="relative w-full h-screen overflow-hidden">
+      <div className="bg-green-500 text-white p-4 text-xl">Test block</div>
+
       <Header />
       {/* Видео */}
       <video
@@ -52,7 +55,7 @@ const HomePage = () => {
       </div>
 
       {/* Кнопки управления видео */}
-<div className="absolute right-2 top-1/2 transform -translate-y-1/2 z-20">
+<div className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20">
   <div className="flex flex-col items-center gap-2">
     {isPlaying ? (
       <button
