@@ -1,16 +1,14 @@
-import React from 'react';
-
 export default function HomeLinkSection() {
   const items = [
     {
       title: 'Conseils de soin',
       href: '/soins',
-      imageSrc: '/public/images/fon1.jpg', // или абсолютный URL
+      imageSrc: '/images/fon1.jpg', // ✅ без /public
     },
     {
       title: 'Ingrédients de nos produits',
       href: '/ingredients',
-      imageSrc: '/public/images/fon-2.jpg',
+      imageSrc: '/images/fon-2.jpg', // ✅ без /public
     },
   ];
 
