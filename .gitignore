@@ -1,0 +1,30 @@
+# Node modules (папка с зависимостями)
+node_modules/
+
+# Логи
+npm-debug.log*
+
+
+
+
+# Конфигурационные файлы окружения (с секретами)
+.env
+.env.local
+.env.*.local
+
+# Кеши Vite, npm, yarn
+.vite/
+.cache/
+.npm/
+
+# IDE и редакторы (Visual Studio Code, JetBrains и др.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Системные файлы (Windows, macOS)
+Thumbs.db
+.DS_Store
