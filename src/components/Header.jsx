@@ -12,7 +12,7 @@ const Header = ({ isScrolled }) => {
 
       {/* 🌍 Язык и валюта */}
       <div className="relative flex items-center gap-2 text-base sm:text-xl">
-        <span className="font-medium lowercase">{selectedLanguage}</span>
+        <span className="font-medium">{selectedLanguage}</span>
         <button
           className={`w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center border-2 rounded-full bg-transparent
             $${isScrolled ? 'bg-transparent text-gray-800' : 'bg-transparent text-white'}

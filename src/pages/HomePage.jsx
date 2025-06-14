@@ -1,7 +1,7 @@
+import { Link } from 'react-router-dom';
+
 import { useRef, useState, useEffect } from 'react';
-import Header from '../components/Header';
 import TopBanner from '../components/TopBanner';
-import Banner from '../components/Banner';
 import HeaderWithBanner from '../components/HeaderWithBanner';
 
 const HomePage = () => {
@@ -55,24 +55,20 @@ const HomePage = () => {
       </video>
 
       {/* Контент по центру */}
-      <div
-        className={`relative z-10 flex items-center justify-center w-full h-[100%] px-4 pt-[calc(64px+25vh)] max-w-2xl mx-auto
-          ${isScrolled ? 'text-black/70' : 'text-white'}`}
-      >
-        <div>
-          <h1 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-4">
+     <div className="relative z-10 flex items-center justify-center w-full h-full px-4 ">
+        <div className="text-center max-w-2xl text-white">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">
             Cosmétiques purs pour une peau éclatante
           </h1>
           <p className="text-base sm:text-lg md:text-xl mb-6">
             Découvrez notre sélection de soins naturels pour votre beauté au quotidien.
           </p>
-          <a
-            href="/catalog"
-            className={`inline-block px-6 py-3 rounded-full shadow transition
-              ${isScrolled ? 'bg-white text-black/70 hover:bg-gray-200' : 'bg-pink-600 text-white hover:bg-pink-700'}`}
+          <Link
+            to="/catalog"
+            className="inline-block px-6 py-3 bg-pink-600 text-white text-lg rounded-full shadow hover:bg-pink-700 transition"
           >
             Voir le catalogue
-          </a>
+          </Link>
         </div>
       </div>
 
